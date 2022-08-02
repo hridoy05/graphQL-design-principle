@@ -15,9 +15,15 @@ const typeDefs = gql`
     id: ID!
     featureSet: GroupFeatureSet
     cars(skip: Int!,take: Int!): [Car!]!
-    name: String
-    imageId: ID!
+    name: String!
+    image: Image! 
     bodyHtml: String!
+  }
+
+  type Image{
+    id: ID
+    url: String!
+
   }
 
   type GroupFeatureSet{

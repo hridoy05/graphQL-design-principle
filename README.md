@@ -17,3 +17,6 @@
 
 ### Rule-6
 - Always check if a list field should be paginated
+
+### Rule-7
+- Always use object references insteas of ID fields
