@@ -17,7 +17,7 @@ const typeDefs = gql`
     cars(skip: Int!,take: Int!): [Car!]!
     name: String!
     image: Image! 
-    bodyHtml: String!
+    description: String!
   }
 
   type Image{
@@ -32,7 +32,15 @@ const typeDefs = gql`
   }
 
   type GroupFeatures{
-    feature: String!
+    feature: GroupFeatureFields!
+  }
+
+  enum GroupFeatureFields {
+    INCLINE_ENGINE
+    FOUR_CYLINDER_ENGINE
+    TWIN_CYLUNDER_ENGINE
+    RED_PAINT
+    BLACK_PAINT
   }
 
 `;

@@ -20,3 +20,9 @@
 
 ### Rule-7
 - Always use object references insteas of ID fields
+
+### Rule-8 
+- Choose field names based on what makes sense, not based on the implementation
+
+### Rule-9
+- Use enums for fields which can only take a specific set of values
