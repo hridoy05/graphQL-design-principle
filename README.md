@@ -26,3 +26,7 @@
 
 ### Rule-9
 - Use enums for fields which can only take a specific set of values
+
+### Rule-9
+- Your API should provide business logic, not just data
+
