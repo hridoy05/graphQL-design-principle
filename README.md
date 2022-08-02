@@ -8,3 +8,6 @@
 
 ### Rule-3
 - Design your API around your business domain
+
+### Rule-4
+- It's easier to add fields than to remove them
