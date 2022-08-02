@@ -5,3 +5,6 @@
 
 ### Rule-2
 - Never expose implementation details in api design
+
+### Rule-3
+- Design your API around your business domain
