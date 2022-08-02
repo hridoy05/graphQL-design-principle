@@ -11,3 +11,6 @@
 
 ### Rule-4
 - It's easier to add fields than to remove them
+
+### Rule-5
+- Group closely related fields together into subjects
