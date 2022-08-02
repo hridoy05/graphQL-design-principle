@@ -14,3 +14,6 @@
 
 ### Rule-5
 - Group closely related fields together into subjects
+
+### Rule-6
+- Always check if a list field should be paginated
