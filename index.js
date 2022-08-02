@@ -12,31 +12,19 @@ const typeDefs = gql`
   }
 
   type ManualGroup{
-    id: ID!
-    name: String!
-    imageId: ID!
-    bodyHtml: String
-    memberships: [GroupMembership!]!
+    Image
+    [Car]
   }
   type AutomaticGroup{
-    id: ID!
-    name: String!
-    imageId: ID!
-    bodyHtml: String
-    memberships: [GroupMembership!]!
-    feature: [AutomaticGroupFeatures!]!
-    applyFeatureSeparately: Boolean!
+    Image
+    [Car!]!
+    [AutomaticGroupFeatures]
   }
 
   type AutomaticGroupFeatures{
     column: String!
   }
 
-
-  type GroupMembership{
-    groupId: ID!
-    carId: ID!
-  }
 `;
 
 const server = new ApolloServer({
