@@ -27,6 +27,25 @@
 ### Rule-9
 - Use enums for fields which can only take a specific set of values
 
-### Rule-9
+### Rule-10
 - Your API should provide business logic, not just data
 
+### Rule-11
+- Write separate mutation for separate logical actions on a resource
+
+### Rule-12
+
+- For a relationship mutation, always consider whether it would be useful to operate on multiple elements at once
+
+### Rule-13
+
+- Prefix mutation names with the object they are mutating for alphabetical grouping 
+
+### Rule-14
+
+- Structure mutations inputs to reduce duplication, even if this requires relaxing requiredness constriants on certain fields
+
+
+### Rule -15
+
+- Mutations should provide user/business level errors via a userErrors field on the mutation payload
